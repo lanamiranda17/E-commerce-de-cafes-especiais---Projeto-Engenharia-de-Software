@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700&display=swap');
+
+.tela_inicial {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 80px; /* altura da navbar */
+}
+
+
+/*----------------SEÇÃO DO TÍTULO----------------*/
+.fundo_titulo {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.fundo_imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.titulo_terroir {
+  position: absolute;
+  top: 50%;                  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-family: 'Geologica';
+  font-size: 5.5rem;
+  font-weight: 400;
+  color: #FFF8F2;
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+/*----------------SEÇÃO DOS POPULARES----------------*/
+.populares {
+  width: 100%;
+  background-color: #fff;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título "Populares" */
+.populares_text {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #412913;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Container das três colunas */
+.colunas_populares {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 90px;
+  flex-wrap: wrap; /* permite quebrar em telas menores */
+}
+
+/* Cada card individual */
+.secao {
+  background-color: #E8E7E7;
+  border-radius: 20px;
+  width: 280px;
+  padding: 25px 20px 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.secao:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Nome do café */
+.cafes_text {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+  color: #412913;
+}
+
+/* Imagem do café */
+.foto_cafe {
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Botão "Comprar" */
+.botao_comprar {
+  background-color: #7a5434;
+  width: 80%;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.botao_comprar:hover {
+  background-color: #5b3c25;
+}
+
+
+/*Resposnsividade*/
+
+@media (max-width: 900px) {
+  .colunas_populares {
+    gap: 30px;
+  }
+
+  .secao {
+    width: 240px;
+  }
+}
+
+@media (max-width: 600px) {
+  .populares_text {
+    font-size: 2rem;
+  }
+
+  .colunas_populares {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+}
