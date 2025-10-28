@@ -2,10 +2,9 @@
 
 ## 🧩 Descrição do Projeto
 O **Terroir** é um sistema completo de **e-commerce de cafés especiais**, desenvolvido como projeto da disciplina de **Engenharia de Software** na Universidade Federal de Lavras (UFLA).  
-O objetivo do sistema é oferecer uma plataforma robusta para comercialização de cafés de origem controlada, permitindo a administração de produtos, pedidos e clientes, com autenticação segura e interface intuitiva.  
+O objetivo do sistema é oferecer uma plataforma para comercialização de cafés especiais e produtos relacionados, permitindo a administração de produtos, pedidos e clientes, com autenticação segura e interface intuitiva.  
 
-O sistema conta com **módulo de backend (API REST)** desenvolvido em **Spring Boot** e um **frontend moderno** construído em **React + Vite**, com design elaborado no **Figma**.  
-Além disso, há integração com o **ViaCEP**, autenticação via **JWT** e **Google OAuth2**, e deploy com **Docker** e **Railway**.
+O sistema conta com **módulo de backend (API REST)** desenvolvido em **Spring Boot** e um **frontend moderno** construído em **React + Vite**, com design elaborado no **Figma**.
 
 ---
 
