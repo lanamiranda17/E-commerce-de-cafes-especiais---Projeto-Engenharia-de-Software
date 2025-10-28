@@ -30,7 +30,7 @@ function Tela_inicial() {
           <div className='secao'>
             <div className='cafes_text'>Café Premium Torra Média</div>
             <img src="/src/assets/cafe_torra.svg" className='foto_cafe' alt="Café premium torra média" />
-            <button className='botao_comprar'>Comprar</button>""
+            <button className='botao_comprar'>Comprar</button>
           </div>
 
           <div className='secao'>
@@ -42,6 +42,40 @@ function Tela_inicial() {
       </div>
 
       {/* Seção Explore por Categorias */}
+      <div className='categorias'>
+        <div className='categorias_text'>Explore por categorias</div>
+        <div className='colunas_categorias'>
+          
+          <div className='card_categoria'>
+            <img src="/src/assets/Capsulas.svg" alt="Cápsulas de café" className='foto_categoria' />
+            <div className='info_categoria'>
+              <div className='titulo_card'>Cápsulas de café</div>
+              <div className='descricao_card'>Praticidade e sabor em cada dose.</div>
+            </div>
+          </div>
+
+          <div className='card_categoria'>
+            <img src="/src/assets/Kits.svg" alt="Kits de café" className='foto_categoria' />
+            <div className='info_categoria'>
+              <div className='titulo_card'>Kits de café</div>
+              <div className='descricao_card'>Tudo para o preparo perfeito.</div>
+            </div>
+          </div>
+
+          <div className='card_categoria'>
+            <img src="/src/assets/Especiais.svg" alt="Cafés especiais" className='foto_categoria' />
+            <div className='info_categoria'>
+              <div className='titulo_card'>Cafés especiais</div>
+              <div className='descricao_card'>O melhor da seleção gourmet.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Botão Flutuante do Carrinho */}
+      <button className='botao_flutuante'> 
+          <img src="/src/assets/Carrinho_icon.svg"/>
+      </button>
 
 
 
